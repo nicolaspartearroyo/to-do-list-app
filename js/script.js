@@ -6,7 +6,12 @@ function newItem() {
 
   if (inputValue === '') {
     alert("You must write something!")
-  } else {
+  }/*
+  if (e.key === 'Enter') {
+    $('#list').append(li);
+    $('#input').val('')
+  }*/
+  else {
     $('#list').append(li);
     $('#input').val('')
   };
